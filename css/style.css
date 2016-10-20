@@ -11,7 +11,6 @@ h3 {
   font-family: 'Farsan', cursive;
   text-align: center;
   background: #CDD3B7;
-  /*padding: .25em;*/
   border-radius: 1em;
   box-shadow: 4px 4px 10px #1a0317,
     2px 2px 20px rgba(65,45,41, 0.9);
@@ -87,7 +86,6 @@ main>figure {
   float: left;
   margin-left: 2.5%;
   background: #CDD3B7;
-  /*padding: .25em;*/
   border-radius: 1em;
   box-shadow: 4px 4px 10px #1a0317,
     2px 2px 20px rgba(65,45,41, 0.9);
@@ -164,9 +162,3 @@ figcaption {
   height: 55vh;
   margin-bottom: 1.5em;
 }
-
-/*font-family: 'Amatica SC', cursive;*/
-/*font-family: 'Chathura', sans-serif;*/
-/*font-family: 'Yatra One', cursive;*/
-/*font-family: 'Farsan', cursive;*/
-/*font-family: 'Poppins', sans-serif;*/
