@@ -1,0 +1,164 @@
+body {
+  background: #CDD3B7;
+  color: #412D3D;
+}
+
+body p {
+  font-family: 'Amatica SC', cursive;
+}
+
+h3 {
+  font-family: 'Farsan', cursive;
+  text-align: center;
+  background: #CDD3B7;
+  border-radius: 1em;
+  box-shadow: 4px 4px 10px #1a0317,
+    2px 2px 20px rgba(65,45,41, 0.9);
+  width: 50%;
+  margin: 1em auto;
+  clear: both;
+}
+
+footer {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: #5F4E5C;
+  text-shadow: -1px -1px 1px #9E899A,
+              1px 1px 1px #3A1A34;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.branding {
+  background: repeating-linear-gradient(30deg, #1d131b, #1a0317 3%, #31282f 1%);
+  height: 10vh;
+  width: 100%;
+  float: left;
+}
+
+.brandLogo {
+  margin: 0;
+  padding: 1em;
+  color: #5F4E5C;
+  text-shadow: -1px -1px 2px #9E899A,
+              1px 1px 2px #3A1A34;
+  float: left;
+}
+
+.navbar {
+  float: right;
+  margin-right: 2em;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: .33em;
+  background: #9E899A;
+  color: #3A1A34;
+  margin: .25em;
+  border-radius: .25em;
+  box-shadow: 1px 1px 3px #1a0317,
+    -1px -1px 2px #31282f;
+}
+
+main {
+  width: 90%;
+  float: left;
+  margin: 0 5%;
+  background: repeating-linear-gradient(-30deg, #CDD3B7, #444D23 1%, #CDD3B7 3%);
+}
+
+main>figure {
+  width: 40%;
+  float: left;
+  margin-left: 2.5%;
+  background: #CDD3B7;
+  border-radius: 1em;
+  box-shadow: 4px 4px 10px #1a0317,
+    2px 2px 20px rgba(65,45,41, 0.9);
+}
+
+main>figure img {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-top: .5em;
+  border-radius: 1em;
+  box-shadow: 4px 4px 10px #1a0317,
+    2px 2px 20px rgba(65,45,41, 0.9);
+}
+
+figcaption {
+  text-align: center;
+  padding:.2em;
+  text-shadow: -1px -1px 2px #9E899A,
+              1px 1px 2px #3A1A34;
+}
+
+#biography {
+  margin-top: 1em;
+  width: 50%;
+  margin-right: 2.5%;
+  float: right;
+  background: #CDD3B7;
+  border-radius: 1em;
+  box-shadow: 4px 4px 10px #1a0317,
+    2px 2px 20px rgba(65,45,41, 0.9);
+  font-size: 1.2em;
+  padding: 1.5em;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 1.3em;
+  line-height: 1.1em;
+}
+
+#linksInterest {
+  font-weight: bold;
+  line-height: 1em;
+  clear: both;
+  margin: 1em 5%;
+  width: 90%;
+  background: #CDD3B7;
+  border-radius: 1em;
+  box-shadow: 4px 4px 10px #1a0317,
+    2px 2px 20px rgba(65,45,41, 0.9);
+  font-size: 1.2em;
+  padding: 1.5em;
+  box-sizing: border-box;
+}
+
+#linksInterest {
+  font-family: 'Yatra One', cursive;
+}
+
+.galleryItem {
+  float: left;
+  width: 30%;
+  margin-left: 2.5%;
+  border-radius: 1em;
+  box-shadow: 4px 4px 10px #1a0317,
+    2px 2px 20px rgba(65,45,41, 0.9);
+}
+
+.galleryItem figure {
+  width: 95%;
+  margin: 7.5%;
+}
+
+#projectsPersonal {
+  clear: both;
+  height: 55vh;
+  margin-bottom: 1.5em;
+}
